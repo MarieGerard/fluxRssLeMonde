@@ -1,0 +1,6 @@
+header.masthead .overlay{ background-color: #FFF; }
+header.masthead .site-heading { color : #000;}
+article.post-preview { border-top: 1px solid #D7D7D7; padding-top: 25px; text-align: center;}
+h2.post-title, p.post-subtitle, p.post-meta { text-align: left;}
+
+img { width: 100%;}
