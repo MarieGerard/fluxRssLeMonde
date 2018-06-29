@@ -1,6 +1,32 @@
-header.masthead .overlay{ background-color: #FFF; }
+header .overlay {
+    margin-bottom: 50px;
+    background: no-repeat center center;
+    background-color: #868e96;
+    background-attachment: scroll;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: blur(3px);
+}
+
+header.masthead .overlay.home{ background-color: #FFF; opacity: 0.8;
+    filter: blur(13px);}
 header.masthead .site-heading { color : #000;}
+a.navbar-brand {color: #000;}
+a:focus, a:hover, .post-preview>a:focus, .post-preview>a:hover { color: #335050;}
 article.post-preview { border-top: 1px solid #D7D7D7; padding-top: 25px; text-align: center;}
 h2.post-title, p.post-subtitle, p.post-meta { text-align: left;}
+article.post-preview a:hover  p.post-subtitle { color :#000;}
 
 img { width: 100%;}
+
+@media only screen and (min-width: 992px) {
+    #mainNav .navbar-brand, #mainNav .navbar-nav>li.nav-item>a {
+        color: #000;
+    }
+    #mainNav .navbar-brand, #mainNav .navbar-nav>li.nav-item>a {
+        color: #2F2F2E;
+    }
+}
